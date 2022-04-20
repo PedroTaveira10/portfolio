@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   position: absolute;
   display: flex;
   width: 100%;
-  ul  {
+  ul {
     display: flex;
     margin: 0 auto;
-    gap: 60px;
+    gap: 6vw;
     margin-top: 30px;
     font-family: 'Poppins';
     font-style: normal;
@@ -16,10 +16,7 @@ export const Container = styled.div`
     line-height: 24px;
     a {
       text-decoration: none;
-      color: #FAFAFA;
+      color: #fafafa;
     }
-} 
-  @media(max-width:720px){
   }
 `;
-

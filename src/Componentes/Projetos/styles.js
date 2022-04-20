@@ -32,6 +32,9 @@ export const Geral = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 1200px) {
+    flex-wrap: wrap;
+  }
 `;
 
 export const Carta = styled.div`

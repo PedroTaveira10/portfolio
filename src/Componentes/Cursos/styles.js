@@ -6,35 +6,42 @@ export const Wrapper = styled.div`
     rgba(6, 7, 12, 1) 35%,
     rgba(16, 19, 31, 1) 49%
   );
-  @media (max-width: 720px) {
-  }
 `;
 
 export const Container = styled.div`
   max-width: 1640px;
-  margin: 0 auto;
   display: flex;
-  @media (max-width: 720px) {
+  @media (max-width: 1280px) {
+    justify-content: center;
   }
 `;
 
 export const W50 = styled.div`
   // width: 50%;
   img {
-    width: auto;
     height: auto;
     top: 5%;
     left: 26%;
   }
+  @media (max-width: 1480px) {
+    img {
+    }
+    @media (max-width: 1280px) {
+      img {
+        height: 3px;
+      }
+    }
+  }
 `;
 
 export const Content = styled.div`
-  padding: 100px 0 0 0;
+  padding: 100px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   // padding: 140px 140px 0;
   color: #fafafa;
+  flex-direction: column;
   h1 {
     font-family: 'Fraunces';
     font-style: normal;
@@ -77,8 +84,6 @@ export const Geral = styled.div`
   display: flex;
   padding: 50px;
   justify-content: center;
-  // margin-top: 36px;
-  // padding-left: 140px;
   gap: 15px;
 `;
 

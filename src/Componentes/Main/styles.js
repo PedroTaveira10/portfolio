@@ -6,12 +6,18 @@ export const Container = styled.div`
   max-width: 1640px;
   margin: 0 auto;
   display: flex;
-  @media (max-width: 720px) {
+  @media (max-width: 1050px) {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
 export const W50 = styled.div`
   width: 50%;
+  @media (max-width: 1050px) {
+    width: 100%;
+  }
 `;
 
 export const Content = styled.div`
@@ -50,6 +56,24 @@ export const Content = styled.div`
     font-size: 15px;
     color: black;
   }
+  @media (max-width: 550px) {
+    p,
+    h2,
+    ul {
+      line-height: 40px;
+      padding: 15px;
+      font-size: 30px;
+    }
+    @media (max-width: 450px) {
+      p,
+      h2,
+      ul {
+        line-height: 30px;
+        padding: 15px;
+        font-size: 15px;
+      }
+    }
+  }
 `;
 
 export const Img1 = styled.div`
@@ -71,8 +95,6 @@ export const Img2 = styled.div`
   background-repeat: no-repeat;
   grid-column: 2;
   grid-row: 4 / span 4;
-  @media (max-width: 720px) {
-  }
 `;
 
 export const DivGeral = styled.div`
@@ -82,7 +104,9 @@ export const DivGeral = styled.div`
   grid-template-rows: repeat(7, 30px);
   margin: 119px 0 156px;
 
-  @media (max-width: 720px) {
+  @media (max-width: 992px) {
+    flex-wrap: wrap;
+    margin: 20px 0 80px;
   }
 `;
 
