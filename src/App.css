@@ -25,3 +25,20 @@ img {
   height: auto;
   width: 100%;
 }
+
+
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: blue; 
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -10,9 +10,9 @@ import {
 } from './styles';
 import RostoSvg from '../../assets/imagens/rosto_sobre.svg';
 
-export default function Main() {
+export default function Sobre() {
   return (
-    <Container>
+    <Container id="Sobre">
       <W50>
         <Content>
           <ul>

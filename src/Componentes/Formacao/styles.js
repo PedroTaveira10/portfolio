@@ -9,8 +9,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Container = styled.div`
-  max-width: 1640px;
   display: flex;
+  justify-content: center;
   @media (max-width: 1280px) {
     justify-content: center;
   }
@@ -76,16 +76,14 @@ export const Content = styled.div`
     display: inline;
     float: right;
     background-color: #0066ff;
-  } @media (max-width: 450px) {
-      font-size:30px;
-      text-align: center;
-      p{
-        width: auto;
-      }
-      
-      }
-      
-     
+  }
+  @media (max-width: 450px) {
+    font-size: 30px;
+    text-align: center;
+    p {
+      width: auto;
+    }
+  }
 `;
 export const Geral = styled.div`
   display: flex;
@@ -93,9 +91,9 @@ export const Geral = styled.div`
   justify-content: center;
   gap: 15px;
   @media (max-width: 450px) {
-      flex-direction:column;
-      align-items: center;
-      }
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const Carta = styled.div`

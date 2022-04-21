@@ -3,22 +3,24 @@ import { Container } from './styles';
 export default function NavBar() {
   return (
     <Container>
-      <ul>
+      <ul className="geral">
         <li>
           {' '}
-          <a href="/">Sobre</a>{' '}
+          <a className="nav" href="#Sobre">
+            Sobre
+          </a>{' '}
         </li>
         <li>
           {' '}
-          <a href="/">Formação</a>{' '}
+          <a href="#Formacao">Formação</a>{' '}
         </li>
         <li>
           {' '}
-          <a href="/">Projetos</a>{' '}
+          <a href="#Projetos">Projetos</a>{' '}
         </li>
         <li>
           {' '}
-          <a href="/">Contato</a>{' '}
+          <a href="#Contato">Contato</a>{' '}
         </li>
       </ul>
     </Container>

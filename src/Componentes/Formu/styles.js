@@ -26,11 +26,12 @@ export const Container = styled.div`
     display: inline;
     float: right;
     background-color: #0066ff;
-  }@media (max-width: 370px) {
-    h1{
-      font-size:24px;
+  }
+  @media (max-width: 370px) {
+    h1 {
+      font-size: 24px;
     }
-    }
+  }
 `;
 
 export const Cartao = styled.div`
@@ -85,6 +86,7 @@ export const FormGeral = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     .row1 {
       display: flex;
       flex-direction: column;
@@ -118,21 +120,30 @@ export const FormGeral = styled.div`
         flex-wrap: wrap;
         gap: 15px;
       }
+      @media (max-width: 390px) {
+        gap: 1px;
+        .input {
+          padding: 10px;
+          width: 271px;
+          height: 45px;
+        }
+      }
     }
   }
   @media (max-width: 1002px) {
     width: 400px;
     height: 580px;
+    padding: 50px;
   }
-  @media (max-width: 450px) {
+  @media (max-width: 500px) {
     width: 300px;
     height: 480px;
+    padding: 50px;
+    box-shadow: 0px 2px 5px #ffffff;
   }
 `;
 
 export const Label = styled.div`
-  padding: 30px;
-
   label {
     font-family: Poppins;
     font-size: 14px;
@@ -162,5 +173,17 @@ export const Label = styled.div`
   @media (max-width: 900px) {
     flex-wrap: wrap;
     gap: 15px;
+    /* padding: 30px; */
+  }
+  @media (max-width: 500px) {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  @media (max-width: 390px) {
+    textarea {
+      padding: 4px;
+      width: 280px;
+      height: 200px;
+    }
   }
 `;

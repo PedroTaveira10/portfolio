@@ -1,14 +1,13 @@
 import { Container, Cartao, Geral, FormGeral, Label } from './styles';
-import { Button1 } from "../../styles/Button"
+import { Button1 } from '../../styles/Button';
 import localizacao from '../../assets/imagens/localizacao_icon.svg';
 import celular from '../../assets/imagens/telefone_icon.svg';
 import email from '../../assets/imagens/email_icon.svg';
-import Iconmail  from "../../assets/imagens/icon-msg.svg"
+import Iconmail from '../../assets/imagens/icon-msg.svg';
 
 export default function formu() {
   return (
-    <Container>
-      
+    <Container id="Contato">
       <div className="text-meio">
         <h1>Entre em Contato Comigo</h1>
         <p>
@@ -16,7 +15,7 @@ export default function formu() {
           <div className="Divider"></div>
         </p>
       </div>
-      
+
       <Geral>
         <Cartao>
           <div>
@@ -44,45 +43,42 @@ export default function formu() {
         </Cartao>
       </Geral>
       <Geral>
+        <FormGeral>
+          <div className="row">
+            <div className="row1">
+              <div>
+                <label>Nome Completo</label>
+                <br></br>
+                <input className="input"></input>
+              </div>
 
-      <FormGeral>
-        <div className="row">
+              <div>
+                <label>E-mail</label>
+                <br></br>
+                <input className="input"></input>
+              </div>
 
-            <div  className="row1">
-                <div>
-                    <label>Nome Completo</label><br></br>
-                    <input className="input"></input>
-                </div>
-
-                <div>
-                    <label>E-mail</label><br></br>
-                    <input className="input"></input>
-                </div>
-
-                <div className="Label">
-                    <label>Telefone</label><br></br>
-                    <input className="input"></input>
-                </div>
+              <div className="Label">
+                <label>Telefone</label>
+                <br></br>
+                <input className="input"></input>
+              </div>
             </div>
 
             <Label>
-                <label>Insira um texto</label><br></br>
-                <textarea>
-                  Sua Mensagem
-                </textarea>
+              <label>Insira um texto</label>
+              <br></br>
+              <textarea>Sua Mensagem</textarea>
             </Label>
-
-        </div>
-        <Button1>
-        <a href="/">ENVIAR<img alt="test" src={Iconmail} /></a>
-        </Button1>
-    </FormGeral>
-      
-     
-        </Geral>
-
-
-
+          </div>
+          <Button1>
+            <a href="/">
+              ENVIAR
+              <img alt="test" src={Iconmail} />
+            </a>
+          </Button1>
+        </FormGeral>
+      </Geral>
     </Container>
   );
 }

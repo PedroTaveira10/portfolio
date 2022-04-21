@@ -65,15 +65,16 @@ export const Content = styled.div`
       font-size: 30px;
     }
     @media (max-width: 450px) {
-      p, h2 , ul {
+      p,
+      h2,
+      ul {
         line-height: 30px;
         font-size: 15px;
-        text-align: center;      
+        text-align: center;
       }
       padding: 15px;
     }
   }
-  
 `;
 
 export const Img1 = styled.div`
@@ -107,6 +108,7 @@ export const DivGeral = styled.div`
   @media (max-width: 992px) {
     flex-wrap: wrap;
     margin: 20px 0 80px;
+    padding: 5px;
   }
 `;
 

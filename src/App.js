@@ -1,8 +1,8 @@
 import './App.css';
 import NavBar from './Componentes/navbar';
 import Home from './Componentes/Home';
-import Main from './Componentes/Main';
-import Cursos from './Componentes/Cursos';
+import Sobre from './Componentes/Sobre';
+import Formacao from './Componentes/Formacao';
 import Projetos from './Componentes/Projetos';
 import Formu from './Componentes/Formu';
 
@@ -11,8 +11,8 @@ function App() {
     <div>
       <NavBar />
       <Home />
-      <Main />
-      <Cursos />
+      <Sobre />
+      <Formacao />
       <Projetos />
       <Formu />
     </div>
