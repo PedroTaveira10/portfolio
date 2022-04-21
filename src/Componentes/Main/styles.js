@@ -65,15 +65,15 @@ export const Content = styled.div`
       font-size: 30px;
     }
     @media (max-width: 450px) {
-      p,
-      h2,
-      ul {
+      p, h2 , ul {
         line-height: 30px;
-        padding: 15px;
         font-size: 15px;
+        text-align: center;      
       }
+      padding: 15px;
     }
   }
+  
 `;
 
 export const Img1 = styled.div`

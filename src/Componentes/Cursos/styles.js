@@ -76,15 +76,26 @@ export const Content = styled.div`
     display: inline;
     float: right;
     background-color: #0066ff;
-  }
-  .divmeio {
-  }
+  } @media (max-width: 450px) {
+      font-size:30px;
+      text-align: center;
+      p{
+        width: auto;
+      }
+      
+      }
+      
+     
 `;
 export const Geral = styled.div`
   display: flex;
   padding: 50px;
   justify-content: center;
   gap: 15px;
+  @media (max-width: 450px) {
+      flex-direction:column;
+      align-items: center;
+      }
 `;
 
 export const Carta = styled.div`

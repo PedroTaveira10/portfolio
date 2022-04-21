@@ -26,9 +26,11 @@ export const Container = styled.div`
     display: inline;
     float: right;
     background-color: #0066ff;
-  }
-  @media (max-width: 720px) {
-  }
+  }@media (max-width: 370px) {
+    h1{
+      font-size:24px;
+    }
+    }
 `;
 
 export const Cartao = styled.div`
@@ -121,6 +123,10 @@ export const FormGeral = styled.div`
   @media (max-width: 1002px) {
     width: 400px;
     height: 580px;
+  }
+  @media (max-width: 450px) {
+    width: 300px;
+    height: 480px;
   }
 `;
 

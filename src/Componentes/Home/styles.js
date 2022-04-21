@@ -93,5 +93,8 @@ export const HomeImage = styled.img.attrs({ src: Image })`
   }
   @media (max-width: 600px) {
     width: 400px;
+   @media (max-width: 420px) {
+    width: 300px;
+  }
   }
 `;

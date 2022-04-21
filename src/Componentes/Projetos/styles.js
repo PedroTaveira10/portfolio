@@ -20,8 +20,13 @@ export const Container = styled.div`
     padding-top: 60px;
     img {
       width: 40px;
+    }@media (max-width: 450px) {
+      font-size:28px;
+      text-align: center;
+      width: auto;
+      }
     }
-  }
+  
 `;
 
 export const Geral = styled.div`
