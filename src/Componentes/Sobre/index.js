@@ -12,7 +12,7 @@ import RostoSvg from '../../assets/imagens/rosto_sobre.svg';
 
 export default function Sobre() {
   return (
-    <Container id="Sobre">
+    <Container id="Sobre" data-aos="fade-up">
       <W50>
         <Content>
           <ul>

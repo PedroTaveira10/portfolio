@@ -10,7 +10,7 @@ import arrowIcon from '../../assets/imagens/arrow-icon.svg';
 export default function NavBar() {
   return (
     <Content id="Projetos">
-      <Container>
+      <Container data-aos="fade-up">
         <div>
           <h1>
             <img alt="test" src={Incon} /> Projetos Desenvolvidos
@@ -30,7 +30,8 @@ export default function NavBar() {
               <p>
                 Projeto desenvolvido durante o <span>curso de CSS FlexBox</span>{' '}
                 da <span>Origamid</span>. A ideia era fazer um site com o modelo
-                apresentado, contudo,<span>a utilização de FlexBox.</span>
+                apresentado, contudo,
+                <span>a utilização de FlexBox.</span>
               </p>
             </div>
             <Button className="cardButton">
@@ -55,7 +56,8 @@ export default function NavBar() {
               <p>
                 Projeto desenvolvido durante o <span> curso de Finance</span> da{' '}
                 <span> RocketSeat</span>. A ideia era fazer um Projeto com o
-                modelo apresentado, com a Utilização de<span>JavaScript.</span>
+                modelo apresentado, com a Utilização de
+                <span>JavaScript.</span>
               </p>
             </div>
             <Button className="cardButton">

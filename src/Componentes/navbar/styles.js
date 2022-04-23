@@ -17,9 +17,9 @@ export const Container = styled.div`
     a {
       text-decoration: none;
       color: #fafafa;
-    }
-    .nav {
-      color: #0066ff;
+      &:hover {
+        color: #0066ff;
+      }
     }
     @media (max-width: 400px) {
       font-size: 15px;

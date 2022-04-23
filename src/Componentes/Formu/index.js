@@ -8,7 +8,7 @@ import Iconmail from '../../assets/imagens/icon-msg.svg';
 export default function formu() {
   return (
     <Container id="Contato">
-      <div className="text-meio">
+      <div className="text-meio" data-aos="fade-up">
         <h1>Entre em Contato Comigo</h1>
         <p>
           <div className="Divider"></div> Segue abaixo os meios de contato
@@ -16,7 +16,7 @@ export default function formu() {
         </p>
       </div>
 
-      <Geral>
+      <Geral data-aos="fade-up">
         <Cartao>
           <div>
             <img alt="test" src={localizacao} />
