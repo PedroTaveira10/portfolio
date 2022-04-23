@@ -68,7 +68,7 @@ export default function formu() {
             <Label>
               <label>Insira um texto</label>
               <br></br>
-              <textarea>Sua Mensagem</textarea>
+              <textarea placeholder="Digite uma mensagem..."></textarea>
             </Label>
           </div>
           <Button1>
