@@ -30,7 +30,7 @@ export default function Home() {
             </h2>
             <p className="invit">
               Olá, convido você a conhecer um pouco sobre mim e dos meus
-              projetos pessoais. Sejam bem-vindo e espero que goste do que lhe
+              projetos pessoais. Seja bem-vindo e espero que goste do que lhe
               será apresentado.
             </p>
             <Button>
