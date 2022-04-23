@@ -19,7 +19,7 @@ export default function Home() {
       <Container>
         <W50>
           <Content>
-            <p>Olá,Me Chamo</p>
+            <p>Olá,me chamo</p>
             <h2>Pedro Taveira</h2>
             <div className="Divider"></div>
             <h2>
@@ -30,11 +30,11 @@ export default function Home() {
             </h2>
             <p className="invit">
               Olá, convido você a conhecer um pouco sobre mim e dos meus
-              projetos pessoais. Seja muito bem-vindo e espero que goste do que
-              lhe será apresentado.
+              projetos pessoais. Sejam bem-vindo e espero que goste do que lhe
+              será apresentado.
             </p>
             <Button>
-              <a href="/">
+              <a href="/" download>
                 DOWNLOAD CV
                 <img alt="test" src={downloadIcon} />
               </a>
